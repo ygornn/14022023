@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu currículo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li id="item"><a href="index.html">Página Inicial</a></li>
+            <li><a href="contato/cadastroContato.php">Contatos</a></li>
+            <li><a href="cidade/cidade.html">Cidade</a></li>
+            <li><a href="esporte/cadastro.php">Hobbies</a></li>
+            <li>Sobre</li>
+        </ul>
+    </nav>
+    <section>
+    <div class="row">
+    <div class="col-6">
+    <h1>C.V. Ygor Nathan Nolli</h1>
+    <p>Olá me chamo Ygor Nathan Nolli, tenho 17 anos e sou estudante do Instituto Federal Catarinense. 
+        Estou em busca da minha primeira experiência profissional</p>
+    <h2>Meus conhecimentos:</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>PHP</li>
+        <li>C++</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+    </ul>
+     
+    <h2>Minhas experiências:</h2>
+    <ol>
+        <li><a href="https://www.ifc-riodosul.edu.br/site/cursos/">Técnico Integrado ao Ensino Médio de Informática para a Internet</a></li>
+        <li>Bolsista- Instituto Federal Catarinense</li>
+        <li>Curso de C++</li>
+    </ol>
+
+    <h2>Tabela de Referências</h2>
+    <table border="4px" class="dados">
+        <tr>
+            <th>Projetos</th>
+            <th>Orientador</th>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/ygornn/Pedidos.git">Site para pedidos(Lanche, Pizza e Bebidas)</a></td>
+            <td>Rodrigo Curvello- rodrigocurvello@ifc.edu.br</td>
+        </tr>
+        <tr>
+            <td><a href="https://github.com/ygornn/projetoFabrica.git">Site para doações</a></td>
+            <td>Marcela Leite- marcelaleite@ifc.edu.br</td>
+        </tr>
+    </table>
+
+    </div>
+    <div class="col-2" id="idFoto"style="padding-top: 72px; padding-right: 25px;">
+        <img class="foto" src="https://www.portaldodog.com.br/cachorros/wp-content/uploads/2017/08/muitos-filhotes-de-golden-retriever-para-deixar-a-sua-sexta-feira-mais-fofa-pdd5.jpg" alt="Imagem">
+    </div>
+    <div class="col-4">
+        <h2>Entre em contato:</h2>
+        <form action="" method="post" id="formContato">
+                <div class="row">
+                <div class="col-4">
+                    <label for="nome">Nome:</label>
+                </div>
+                <div class="col-8">
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="row erro" id="erronome"><div class="col-12">O nome deve possuir pelo menos três letras</div></div>
+                </div>
+                <div class="row">
+                <div class="col-4">
+                    <label for="email">E-mail:</label>
+                </div>
+                <div class="col-8">
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="row erro" id="erroemail"><div class="col-12">O e-mail foi escrito incorretamente</div></div>
+                </div>
+                <div class="row">
+                <div class="col-4">
+                    <label for="salario">Proposta de Salário:</label>
+                </div>
+                <div class="col-8">
+                    <input type="number" name="salario" id="salario">
+                </div>
+                </div>
+                <div class="row erro" id="errosal"><div class="col-12">Salário inválido</div></div>
+                <div class="row">
+                <div class="col-4">
+                    <label for="obs">Observação:</label>
+                </div>
+                <div class="col-8">
+                    <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
+                </div>
+                </div>
+                <div class="row erro" id="errobs"><div class="col-12">Este campo não pode estar vazio</div></div>
+                <div class="row">
+                <div class="col-2">
+                    <input type="submit" value="Enviar">
+                </div>    
+                </div>
+        </form>
+    </div>
+</section>
+</div>
+<div class="row">
+    <div class="col-5">
+    <footer>
+        <p>Feito por: Ygor Nathan Nolli</p>
+    </footer>
+    </div>
+</div>
+</body>
+</html>
